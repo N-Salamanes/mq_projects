@@ -1,0 +1,9 @@
+run
+run mytest.hip
+run src/main/test/scala/resources/mytest.hip
+ls
+run
+run file.hip
+run src/test/resources/life.hip
+sbt clean
+clean

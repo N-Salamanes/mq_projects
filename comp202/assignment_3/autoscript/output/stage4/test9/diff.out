@@ -1,0 +1,4 @@
+3a4,6
+> gcc -c echo.c
+> gcc -o echo echo.o
+> Dmake: File echo unchanged.

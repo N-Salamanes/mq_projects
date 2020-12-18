@@ -1,0 +1,1 @@
+This is not a csv file so shouldn't be read by the TrackLog class.

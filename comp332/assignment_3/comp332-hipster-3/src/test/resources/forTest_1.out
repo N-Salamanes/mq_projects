@@ -1,0 +1,114 @@
+package org.bitbucket.dominicverity.cellsim;
+
+class CellularAutomaton extends BaseAutomaton {
+
+    private static final int width$5 = 200;
+    private static final int height$6 = 200;
+    private static final int black$17 = 0;
+    private static final int white$18 = 16777215;
+
+    class Cell extends BaseCell {
+
+        Cell _other$2;
+        Cell _theother$3;
+        Cell N$7;
+        Cell S$8;
+        Cell W$9;
+        Cell E$10;
+        Cell NE$11;
+        Cell SE$12;
+        Cell SW$13;
+        Cell NW$14;
+        boolean alive$15;
+
+        Cell(Point _loc$1) {
+            super(_loc$1);
+            _other$2 = this;
+            resetCellState();
+        }
+
+        void initNeighbours() {
+            _theother$3 = getOther();
+            N$7 = getCellRel(0, 1);
+            S$8 = getCellRel(0, -1);
+            W$9 = getCellRel(-1, 0);
+            E$10 = getCellRel(1, 0);
+            NE$11 = getCellRel(1, 1);
+            SE$12 = getCellRel(1, -1);
+            SW$13 = getCellRel(-1, -1);
+            NW$14 = getCellRel(-1, 1);
+        }
+
+        synchronized void updater() {
+            _other$2.alive$15 = alive$15;
+        }
+
+        synchronized int mapper() {
+            if (alive$15)
+                return white$18;
+            else
+                return black$17;
+        }
+
+        synchronized void resetCellState() {
+            alive$15 = false;
+        }
+
+        Cell getCellRel(int... _off$4) {
+            return (Cell)getCell(_off$4);
+        }
+
+        Cell getOther() {
+            return (Cell)getNextGen();
+        }
+
+        void otherToSelf() {
+            _other$2 = this;
+        }
+
+        void otherToOther() {
+            _other$2 = _theother$3;
+        }
+    }
+
+    CellularAutomaton() {
+        super();
+        initDims(width$5, height$6);
+        initCycles(true, false);
+        initWorld();
+        addInitialiser("forTest1", (() -> { forTest1$16(); }));
+    }
+
+    void forTest1$16() {
+        {
+            int i$19 = 0;
+            int _end$21 = width$5 - 1;
+            int _step$22 = 1;
+            boolean _dirn$20 = _step$22 >= 0;
+            if (_step$22 != 0)
+                while (_dirn$20 && _end$21 >= i$19 || (!_dirn$20 && _end$21 <= i$19)) {
+                    { }
+                    i$19 = i$19 + _step$22;
+                }
+        }
+        {
+            int i$23 = 0;
+            int _end$25 = height$6 - 1;
+            int _step$26 = 1;
+            boolean _dirn$24 = _step$26 >= 0;
+            if (_step$26 != 0)
+                while (_dirn$24 && _end$25 >= i$23 || (!_dirn$24 && _end$25 <= i$23)) {
+                    { }
+                    i$23 = i$23 + _step$26;
+                }
+        }
+    }
+
+    BaseCell makeCell(Point _loc$1) {
+        return new Cell(_loc$1);
+    }
+
+    Cell getCellAbs(int... _loc$1) {
+        return (Cell)getCell(_loc$1);
+    }
+}

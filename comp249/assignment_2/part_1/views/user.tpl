@@ -1,0 +1,3 @@
+% rebase('userbase.tpl')
+
+{{content}}

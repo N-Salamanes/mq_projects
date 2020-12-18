@@ -1,0 +1,3 @@
+rm echo.o
+gcc -c cat.c
+gcc -o cat cat.o

@@ -1,0 +1,5 @@
+# MY_OWN_TEST
+# target does not exist, dependent does not exist
+echo: echo.c
+	gcc -o echo echo.c
+

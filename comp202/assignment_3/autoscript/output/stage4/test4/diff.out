@@ -1,0 +1,5 @@
+3,4c3
+< gcc -c echo.c
+< Dmake: File echo.o unchanged.
+---
+> gcc -o cat cat.o

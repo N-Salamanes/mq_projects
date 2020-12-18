@@ -1,0 +1,21 @@
+run life.hip
+run test/resources/life.hip
+run src/test/resources/life.hip
+clear
+run src/test/resources/life.hip
+run src/test/resources/diffuse.hip
+run src/test/resources/sierpinski.hip
+run src/main/test/resources/test1.hip
+run src/test/resources/test1.hip
+run src/test/resources/forTest_1.hip
+sbt clean
+clean
+run src/test/resources/forTest_2.hip
+run src/test/resources/forTestError_1.hip
+run src/test/resources/forTest_3.hip
+run src/test/resources/forTestError_2.hip
+run src/test/resources/forTestError_3.hip
+run src/test/resources/forTestError_4.hip
+clean
+run src/test/resources/life.hip
+clean

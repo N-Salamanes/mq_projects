@@ -1,0 +1,207 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
+		<h2>COMP330: Computer Graphics (2017s1)</h2>
+		<h3>Assignment 3</h3>
+		<p>Prepared by Scott McCallum
+                <br>Questions to: scott.mccallum@mq.edu.au</p>
+		<p><b>Due Date:</b> 11:55pm, Monday 5 June 2017.</p>
+		<p>This assignment is designed to give you practice 
+with fundamental aspects of 3D graphics programming including:
+			</p><ol type="A">
+				<li>Hierarchical 3D modelling.</li>
+				<li>User activated animations.</li>
+				<li>Perspective viewing from both a fixed and
+                                    moving viewpoint in 3D space.</li>
+				<li>Viewports.</li>
+				<li>Use of lighting and texturing.</li>
+				<li>Scene management, generation.</li>
+			</ol>
+		<p></p>
+
+<p>The objective of the assignment is to design and implement in C++ and OpenGL
+a program which displays a simple aircraft flight animation. A program like this is
+also known as a flight simulator.
+The aircraft should initially be located at the airport terminal ready for departure.
+Then it should taxi to the runway, take off, ascend to the desired altitude
+(turning as appropriate), execute some flight acrobatics (as appropriate), land,
+and taxi back to the terminal. Four viewports, each providing
+a different view of your scene as spelled out in the detailed requirements
+below, are requested to be displayed.
+The following picture is a screenshot from Microsoft Flight Simulator 3.0,
+which shows a Cessna Skylane flying over Chicago.
+</p>
+<img src="assign3_files/Msfs3.html">
+<p></p>
+
+<p>You may like to look up the Wikipedia article on the history
+of the Microsoft Flight Simulator series.
+Subsequent versions of this popular program provided more detailed scenery
+and more realistic aircraft. However, you should probably aim to provide
+relatively simple graphics, as illustrated by FS 3.0 above, or perhaps a bit more
+realistic than that. The main goal is to practise the fundamental techniques of 3D
+graphics listed above.</p>
+
+<p>You are free to design your own aircraft and scenery, within the
+general requirements detailed below.</p>
+
+<p>Your program will be marked out of 40, and
+this mark will be worth 20% of your final mark
+for this unit. </p>
+
+		<h3>Relevant sample programs</h3>
+<p>Two relevant sample programs are available for downloading from the
+Assignments section of the COMP330 iLearn space:
+<code>robotArmLambert.zip</code> and
+<code>manualModelling.zip</code> 
+(These files are also available in the Week 8 section.)
+Study, compile (build), and run each program.</p>
+
+<p>Notice that the scene displayed by the first program can be simply
+animated via the keyboard bottom row zxcvbnm, (together with pqr), 
+or alternatively by pressing 1
+to obtain a timed animation. This program <b>does not</b> use a scene graph
+to store a logical model of the scene.
+Consequently its structure is relatively simple: no classes are defined, but
+there are numerous functions.</p>
+
+<p>The scene displayed by the second program shows a simple timed animation
+of a "quad chain"; some other objects are displayed fixed.
+This program <b>does</b> use a scene graph (tree) 
+to store a logical model of the scene.
+Furthermore, this program makes strong use of object oriented programming techniques
+to represent and process the scene graph (tree).
+Consequently, it structure is relatively complex: a class is defined for each scene
+object, and some such classes are derived from others.
+Nevertheless, the overall structure of the program is not too difficult to understand.
+It will be discussed in practical classes.</p>
+
+<p>You are free to use <b>either</b> (or neither, or both) of these sample programs
+to guide your work on this assignment. Indeed you could use one of the sample programs,
+of your choice and modified as necessary, as a kind of starting point for your work. 
+But since your assigned requirements are very different 
+from the features of the sample programs,
+you may want to prune much away from your chosen sample program before starting your
+own development work.</p>
+
+		<p>Keep in mind also that lectures and practical classes 
+will provide you with many of the concepts you will need to be successful 
+in this assignment and in the final exam.</p>
+
+		<h3>Tasks</h3>
+The requirements are set out below in more detail.<p></p>
+
+<ol>
+<li>(4 marks) <b>Title page</b>
+<p>
+Please provide a simple but attractive title page in colour which introduces
+the user to the program. (This page should contain at least your name and an
+image of your aircraft.)</p>
+</li>
+
+<li>(12 marks) <b>The initial scene</b>
+<p>
+Upon the user's request four viewports should appear on the screen.
+The main (largest) viewport, which spans the length of the screen
+window, should contain a "third person" 
+perspective view of an aircraft parked at the terminal.
+Your aircraft should be propeller driven.
+A runway and some other buildings should also be in the scene.
+If you wish, regard this third person view as from the airport control tower.
+The three smaller viewports, all located below the main one, should each contain
+a different view of the scene. The left one of these
+should contain a perspective side view of
+the aircraft from a close up camera <b>which moves with the aircraft</b>.
+The middle one of these should contain a perspective view of the scene from the cockpit
+(a "first person" view). The cockpit view should include a simple
+instrument panel including such instruments as
+speedometer, altimeter, compass and fuel gauge.
+The instrument panel should be part of the aircraft, that is, part of your
+3D scene, rather than a separate 2D "overlay" as appears to be used in the FS 3.0
+screenshot above.
+The right smaller viewport should contain a simple radar
+view (that is, a "top down" or "plan" view from above) of the scene.
+</p>
+
+<p>
+Please provide to the user a means by which he or she could <b>cycle through</b>
+the positions on the screen of the four viewports.
+That is, the user should have the possibility to select <b>any</b>
+of the four viewports as the main one.
+You could assign the tab key, say, to control viewport cycling.
+</p>
+
+<p>You should also provide some basic lighting for your scene. For example, define
+a single light source (the sun, say), and 
+assign appropriate properties to it and the materials.
+</p></li>
+
+<li>(12 marks) <b>User initiated animations</b>
+<p>
+Upon pressing a certain key (1, say), the aircraft should back away from
+the terminal then taxi a short distance to the end of the runway.
+After pausing there for a moment, it should take off, climb to the desired
+altitude, turning as needed, then execute a holding pattern (flying in a circle
+at the same altitude).
+Upon pressing another key (2, say), the aircraft should execute
+some flight acrobatic manoeuvre such as "corkscrew" (rotating about
+longitudinal axis), then return to holding pattern. 
+Upon pressing another key (3, say), it should
+execute some other manoeuvre such as "looping", then return to
+holding pattern. Finally, upon pressing
+still another key (4, say), it should prepare for landing,
+return to the airport, then taxi back to the terminal.
+</p>
+</li>
+
+<li>(6 marks) <b>Further features</b> 
+<p>
+Time permitting, you could provide further features such as:
+</p><ul>
+<li> use of textures
+</li><li> a more detailed or more realistic aircraft
+</li><li> a more realistic airport and surroundings
+</li><li> more realistic instruments whose readings reflect the current state
+     of the flight
+</li><li> use of an advanced instrument such as a gyroscopic indicator
+</li><li> use of special effects (such as rain)
+</li></ul>
+As a rough guide, each of the above will earn you approximately 2 marks,
+up to a maximum of 6 marks for this component.
+<p></p> 
+</li>
+
+<li>(4 marks) <b>Coding style</b> 
+<p>
+Four marks will be awarded for good coding style, including such aspects as
+modularity, understandability and reusability.</p>
+</li>
+
+<li>(2 marks) <b>Documentation</b> 
+<p>
+Two marks will be awarded for good documentation. This does not
+have to be extensive; but please inform the user (marker) about the keyboard
+commands, mouse actions, etc. that are available, unless they are
+clear to a user simply by looking at the screen upon starting up.
+Documentation could be supplied as part of your electronic submission.
+</p>
+</li>
+</ol>
+		
+		<h3>Extra Functionality</h3>
+		<p>There will be some of you that will find this 
+selection of scene components and aircraft movements to be insufficiently
+challenging. You are free to add more of this as you wish. 
+We cannot give you extra marks, but you won't be marked down either.
+		</p>
+		<h3>Submission</h3>
+		<p>Please submit an exported eclipse project 
+                in a .zip file to iLearn by the due date.
+                Do not include your executable program.
+                Your documentation can be included in your project folder.</p>
+		<p>Please format the .zip file as "COMP330_A3_[your student number].zip".</p>
+		<h3>Questions / Comments</h3>
+		<p>Please direct any questions or comments to 
+scott.mccallum@mq.edu.au or post in the Assignment 3 forum on iLearn.
+	
+
+</p></body></html>

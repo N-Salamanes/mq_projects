@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>New South Wales</region>
+            <office>NSWRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDN10031</identifier>
+        <issue-time-utc>2017-04-15T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2017-04-16T04:30:00+10:00</issue-time-local>
+        <sent-time>2017-04-15T18:30:03Z</sent-time>
+        <expiry-time>2017-04-25T18:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2017-04-15T17:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2017-04-19T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2017-04-16T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2017-04-16T16:30:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="NSW_FA001" description="New South Wales" type="region">
+            <forecast-period start-time-local="2017-04-16T04:30:04+10:00" end-time-local="2017-04-16T04:30:04+10:00" start-time-utc="2017-04-15T18:30:04Z" end-time-utc="2017-04-15T18:30:04Z">
+                <text type="synoptic_situation">A high pressure system is moving over the Tasman Sea strengthening a ridge along the New South Wales coast. The high is expected to remain slow-moving over the Tasman Sea for the next few days.</text>
+                <text type="warning_summary_footer">Details of warnings are available on the Bureau's website www.bom.gov.au, by telephone 1300-659-218* or through some TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2017-04-16T05:00:00+10:00" end-time-local="2017-04-17T00:00:00+10:00" start-time-utc="2017-04-15T19:00:00Z" end-time-utc="2017-04-16T14:00:00Z">
+                <text type="forecast">Areas of morning fog in the east. Fine and partly cloudy. West to northwest winds with a southerly change along the southern coast during the day.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2017-04-17T00:00:00+10:00" end-time-local="2017-04-18T00:00:00+10:00" start-time-utc="2017-04-16T14:00:00Z" end-time-utc="2017-04-17T14:00:00Z">
+                <text type="forecast">Patchy morning fog in the east. Slight chance showers about the north coast. Partly cloudy for the remainder. East to northeast winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2017-04-18T00:00:00+10:00" end-time-local="2017-04-19T00:00:00+10:00" start-time-utc="2017-04-17T14:00:00Z" end-time-utc="2017-04-18T14:00:00Z">
+                <text type="forecast">Slight to medium chance of showers in the east. Partly cloudy in the western and central parts. Northeast to northwest winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2017-04-19T00:00:00+10:00" end-time-local="2017-04-20T00:00:00+10:00" start-time-utc="2017-04-18T14:00:00Z" end-time-utc="2017-04-19T14:00:00Z">
+                <text type="forecast">Slight to medium chance of showers near the coast and slight chance of showers in the far west. Partly cloudy elsewhere. Southeast to northeasterly winds.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

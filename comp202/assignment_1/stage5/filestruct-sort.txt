@@ -1,0 +1,20 @@
+
+Sorting order (in order of precedence):
+ 
+caption in descending order. 
+hot in ascending order. 
+tin in ascending order. 
+degree in descending order. 
+prison in ascending order. 
+act in descending order. 
+quarter in descending order. 
+knife in ascending order. 
+mitten in ascending order. 
+blade in ascending order. 
+ear in ascending order. 
+afternoon in descending order. 
+flag in ascending order. 
+grade in descending order. 
+ship in descending order. 
+zinc in descending order. 
+angle in ascending order. 

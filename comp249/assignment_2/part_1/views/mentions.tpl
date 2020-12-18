@@ -1,0 +1,3 @@
+% rebase('mentionsbase.tpl')
+
+{{content}}

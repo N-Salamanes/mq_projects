@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.bitbucket.inkytonik.kiama:kiama_2.12:2.1.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bitbucket.inkytonik.kiama/kiama_2.12/jars/kiama_2.12-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bitbucket.inkytonik.kiama/kiama_2.12/docs/kiama_2.12-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bitbucket.inkytonik.kiama/kiama_2.12/srcs/kiama_2.12-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

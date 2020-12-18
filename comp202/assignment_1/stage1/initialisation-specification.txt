@@ -1,0 +1,20 @@
+Use the following initial values for the fields of your record.
+ 
+ 
+Field act must be decimal -44  
+Field ear must be decimal 4  
+Field blade must be decimal number 335 converted to octal  
+Field afternoon must be -0.871582  
+Field zinc must be the string "bat"
+Field degree must be decimal 1662 converted to hexadecimal  
+Field flag must be 1  
+Field quarter must be 0  
+Field tin must be 0  
+Field grade must be 0  
+Field angle must be -360.837311  
+Field ship must be decimal number 31 converted to octal  
+Field hot must be 0  
+Field caption must be -7.871643  
+Field prison must be the character ']'
+Field mitten must be 0  
+Field knife must be decimal 211 converted to hexadecimal  

@@ -1,0 +1,2 @@
+act, ear, blade, afternoon, zinc, degree, flag, quarter, tin, grade, angle, ship, hot, caption, prison, mitten, knife
+ff, 27, -1612668, 25500.708984, cars, 6, 1, 0, 0, 1, -38.604553, 1, 0, 31212.757812, <, 0, 13484

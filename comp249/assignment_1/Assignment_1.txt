@@ -1,0 +1,35 @@
+Assignment 1: Web Design
+
+My submission
+
+Instructions for submission
+
+This semester we will be writing a simple micro-blogging application called Psst that allows users to post short messages.  Unlike the competition, which limit messages to 140 characters, Psst allows a full 150 characters in each message. We hope that this will give us the edge in this very competitive market. 
+The assignment will be split into two parts with three submissions:
+
+    Assignment 1 (this part) will involve an initial design for the site in HTML and CSS.
+    Assignment 2 part 1 will have you writing a basic version of the site that can display messages from a database.
+    Assignment 3 part 2 will be the full site with user login, posting messages etc.
+
+In this first stage, your job is to come up with a good design for the new site.  You are given a basic outline HTML file containing some sample messages and a starter CSS file; your task is to create an original design for the new site.  You are free to use any page layout that you think will be effective and you are encouraged to borrow ideas from around the web; however, if you do, you must cite the source of your inspiration so that our lawyers can make sure we don’t get sued.   
+You only need to design one page - the front page of our site.  The starter page you are given contains a number of posts, you can use as many or as few of these as you wish.  You may include graphics in your design, if you do, use URLs to refer to them on the web or include them in the zip file you submit (note the size limit though).  
+The design brief is broad but there is one thing that our lawyers are very sure of: the site must not look like that of our main competitor (I won’t mention the name but it starts with T and rhymes with Pwitter).
+Get the starter kit here: comp249-psst.zip
+
+Marking
+
+This assignment will be peer marked - that is you will get a chance to rate the work of a number of other students.  The marking criteria are as follows :
+
+    Overall design
+    Originality and Creativity
+    Use of the Technology
+
+You will rate each submission on these three criteria.  You will also be marked on how you grade other student's submissions (80% of the marks are for your work, 20% are for how you mark other people).  
+
+Note that unit staff will also review the submissions and may override the peer-assessment mark if appropriate. 
+
+Submission
+
+In the space below, write a few lines about your design. What do you think the best thing about your design is? 
+
+Then, submit a zip file containing your HTML and CSS files and any other files (eg. images) needed to view your design.  

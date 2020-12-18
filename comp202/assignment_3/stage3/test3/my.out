@@ -1,0 +1,5 @@
+rm say.o
+gcc -c say.c
+echo "Linking your program"
+Linking your program
+gcc -o say say.o

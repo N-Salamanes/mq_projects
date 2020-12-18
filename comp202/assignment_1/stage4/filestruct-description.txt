@@ -1,0 +1,20 @@
+This file lists the fields of your data records in the order they occur in data files.
+ 
+
+The field called act must be a 1-byte integer 
+The field called ear must be a 1-byte unsigned integer 
+The field called blade must be a 4-byte integer 
+The field called afternoon must be an 8-byte floating point number 
+The field called zinc must be a fixed-length string of no more than 7 characters (including terminating nulls) 
+The field called degree must be a 4-byte unsigned integer 
+The field called flag must be a 4-byte Boolean 
+The field called quarter must be a 2-byte Boolean 
+The field called tin must be a 4-byte Boolean 
+The field called grade must be a 2-byte Boolean 
+The field called angle must be a 4-byte floating point number 
+The field called ship must be a 2-byte unsigned integer 
+The field called hot must be a 1-byte Boolean 
+The field called caption must be a 4-byte floating point number 
+The field called prison must be a 1-byte character 
+The field called mitten must be a 2-byte Boolean 
+The field called knife must be an 8-byte unsigned integer 

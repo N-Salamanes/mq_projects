@@ -1,0 +1,4 @@
+gcc -c cat.c
+Dmake: File cat.o unchanged.
+gcc -c echo.c
+Dmake: File echo.o unchanged.

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10310</identifier>
+        <issue-time-utc>2017-04-15T19:00:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2017-04-16T05:00:00+10:00</issue-time-local>
+        <sent-time>2017-04-15T19:03:09Z</sent-time>
+        <expiry-time>2017-04-16T19:00:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2017-04-16T05:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2017-04-19T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2017-04-16T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2017-04-16T16:30:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region">
+            <forecast-period start-time-local="2017-04-16T05:03:10+10:00" end-time-local="2017-04-16T05:03:10+10:00" start-time-utc="2017-04-15T19:03:10Z" end-time-utc="2017-04-15T19:03:10Z">
+                <text type="synoptic_situation">A broad high pressure system will persist over Victoria for the weekend then move slowly move east, reaching the Tasman Sea by Tuesday.</text>
+                <text type="warning_summary_footer">Details of warnings are available on the Bureau's website www.bom.gov.au, by telephone 1300-659-217* or through some TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2017-04-16T05:00:00+10:00" end-time-local="2017-04-17T00:00:00+10:00" start-time-utc="2017-04-15T19:00:00Z" end-time-utc="2017-04-16T14:00:00Z">
+                <text type="fire_danger">Low-Moderate.</text>
+                <text type="forecast">Morning fog patches. Isolated light showers in the morning near the west coast. Fine although cloudy for the remainder. A cool to mild day with light winds, tending southerly in western districts during the day.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2017-04-17T00:00:00+10:00" end-time-local="2017-04-18T00:00:00+10:00" start-time-utc="2017-04-16T14:00:00Z" end-time-utc="2017-04-17T14:00:00Z">
+                <text type="forecast">Morning fog patches, mainly in the south. A partly cloudy day to follow with the slight chance of an afternoon shower over the eastern ranges. Cool to mild with light winds and weak afternoon coastal seabreezes.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2017-04-18T00:00:00+10:00" end-time-local="2017-04-19T00:00:00+10:00" start-time-utc="2017-04-17T14:00:00Z" end-time-utc="2017-04-18T14:00:00Z">
+                <text type="forecast">Morning fog patches. Mild to warm and mostly sunny with isolated showers over the far eastern ranges during the afternoon. Light to moderate north to northeasterly winds and weak afternoon coastal seabreezes.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2017-04-19T00:00:00+10:00" end-time-local="2017-04-20T00:00:00+10:00" start-time-utc="2017-04-18T14:00:00Z" end-time-utc="2017-04-19T14:00:00Z">
+                <text type="forecast">Sunny at first, cloud increasing in the west in the afternoon with isolated showers also developing in the far west. Light to moderate northerly winds with afternoon coastal sea breezes.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

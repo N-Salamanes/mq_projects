@@ -1,0 +1,29 @@
+chapter 3
+
+strings ""
+
+objdump -t bomb|less
+objdump -d bomb|less
+
+
+gdb bomb
+
+
+//add break point
+b [instruction]
+
+run
+
+//execute with 8 steps, and formatting
+x /8i $pc
+
+//continue
+c
+
+//register info
+i r $edx
+info reg(?)
+/x/ 0xRegister
+
+//step instruction
+si

@@ -1,0 +1,4 @@
+act, ear, blade, afternoon, zinc, degree, flag, quarter, tin, grade, angle, ship, hot, caption, prison, mitten, knife
+f8, 33, -287, 0.064941, nation, 1, 1, 1, 0, 1, 0.000305, 1, 1, -0.001129, 8, 0, 150
+1a, 166, -1166055, -0.127441, sign, 3020, 0, 1, 1, 0, -31.037872, 12222, 1, -0.063049, o, 1, 20411615
+ff, 56, -53, -13436.637695, shoes, 297, 0, 0, 0, 1, 0.410370, 13, 0, 0.000031, K, 0, 15573

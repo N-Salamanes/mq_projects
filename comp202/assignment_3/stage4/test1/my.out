@@ -1,0 +1,3 @@
+gcc -c echo.c
+Dmake: File echo.o unchanged.
+Dmake: File echo.o unchanged.

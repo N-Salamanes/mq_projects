@@ -1,0 +1,3 @@
+break phase_3
+break bomb_activates
+break *0x40118e

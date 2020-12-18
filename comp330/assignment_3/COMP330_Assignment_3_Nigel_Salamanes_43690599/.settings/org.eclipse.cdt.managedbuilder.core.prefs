@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/CPATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/CPATH/value=C\:\\cygwin\\home\\Tim\\comp330\\OpenGL_Dev_Kit_v2\\eclipse\\MingW/include;C\:\\cygwin\\home\\Tim\\comp330\\OpenGL_Dev_Kit_v2\\eclipse\\../freeglut/include
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/appendContributed=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/LIBRARY_PATH/value=C\:\\cygwin\\home\\Tim\\comp330\\OpenGL_Dev_Kit_v2\\eclipse\\MinGW/lib;C\:\\cygwin\\home\\Tim\\comp330\\OpenGL_Dev_Kit_v2\\eclipse\\../freeglut/lib
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/append=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.651046661/appendContributed=true
